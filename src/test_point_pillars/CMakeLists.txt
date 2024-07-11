@@ -36,6 +36,23 @@ add_executable(test_point_pillars
   ${SOURCE_FILES}
 )
 
+##追記
+add_library(point_pillars_lib
+  nodes/test_point_pillars_node.cpp
+)
+
+
+
+
+
+
+
+
+
+
+
+##ここまで
+
 target_link_libraries(test_point_pillars
   point_pillars_lib
   ${catkin_LIBRARIES}
